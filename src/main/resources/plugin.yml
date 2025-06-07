@@ -1,0 +1,18 @@
+name: PlayerStats
+version: '1.0'
+main: by.kotor.playerStats.PlayerStats
+api-version: '1.21'
+author: Kotor
+description: A plugin for tracking player kills of mobs, displaying stats in chat or with a hologram
+
+commands:
+  stats:
+    description: Shows the number of mobs you have killed
+    usage: /stats
+  topkills:
+    description: Shows the top 5 players by number of mob kills
+    usage: /topkills
+  hologram-top-five-kill-mobs:
+    description: Creates a hologram with the top 5 players in terms of killing mobs
+    usage: /hologram-top-five-kill-mobs
+    aliases: [htop5-mobs, hologram-top-five-kill-mobs]
